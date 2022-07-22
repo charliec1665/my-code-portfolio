@@ -15,21 +15,75 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--light-color);
+    color: var(--dark-color);
 }
 
 header {
-    background-color: var(--med-color);
-    /* display: flex; */
+    padding: 5px 35px;
+    background-color: #ff794d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 38px;
+    padding: 10px;
+    color: var(--light-color);
+    text-shadow: 0 0 10px #cc3300;
+}
+
+header nav ul {
+    list-style: none;
 }
 
 header nav ul li {
     display: inline-block;
+    padding: 25px;
+    color: var(--med-color);
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 18px;
 }
 
 .hero {
-    height: 400px;
+    height: 245px;
     width: 100%;
+    margin-bottom: 25px;
     background-image: url("../images/hero-cord-image.png");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.hero h2 {
+    height: 55px;
+    width: 200px;
+    padding: 12px;
+    background-color: var(--secondary-med-color);
+    color: var(--light-color);
+    text-shadow: 0 0 10px #cc3300;
+    justify-content: right;
+}
+
+h3 {
+    font-size: 25px;
+    border-bottom: 2px solid var(--secondary-dark-color);
+    width: 300px;
+    padding: 10px 0;
+}
+
+.about {
+    padding: 20px 70px;
+}
+
+.about p {
+    padding: 12px 0;
 }
