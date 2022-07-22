@@ -87,3 +87,41 @@ h3 {
 .about p {
     padding: 12px 0;
 }
+
+.work {
+    padding: 20px 70px;
+}
+
+.work h4 {
+    padding-top: 12px;
+}
+
+.contact {
+    padding: 20px 70px;
+}
+
+.contact p {
+    padding: 12px 0;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    padding: 12px 0;
+    color: var(--secondary-dark-color);
+}
+
+.contact ul li a {
+    padding: 12px 55px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: var(--secondary-dark-color);
+}
+
+.resume {
+    padding: 20px 70px;
+}
+
+.resume p {
+    padding: 12px 0;
+}
