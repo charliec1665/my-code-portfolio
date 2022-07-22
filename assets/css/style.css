@@ -4,10 +4,32 @@
     box-sizing: border-box;
 }
 
+:root {
+    --light-color: #eef7f7;
+    --med-color: #45a1a1;
+    --secondary-med-color: #ff794d;
+    --dark-color: #395660;
+    --secondary-dark-color: #cc3300;
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--light-color);
 }
 
 header {
-    background-color: aquamarine;
+    background-color: var(--med-color);
+    /* display: flex; */
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/hero-cord-image.png");
+    background-size: cover;
+    background-position: center;
 }
