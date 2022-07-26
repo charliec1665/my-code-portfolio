@@ -100,48 +100,36 @@ h3 {
     padding: 20px 70px;
 }
 
-.work h4 {
-    padding-top: 12px;
+.work-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .work-sample1 a img {
-    margin: 25px;
+    margin: 25px 20px 10px 20px;
     width: 850px;
     height: 640px;
     opacity: 80%;
-    border: 2px solid var(--dark-color);
+    border: 5px solid var(--dark-color);
+    border-radius: 1%;
 }
 
-.work-sample2 a img {
-    margin: 25px;
-    width: 450px;
-    height: 340px;
-    opacity: 80%;
-    border: 2px solid var(--dark-color);
+.work-sample1:hover a img {
+    opacity: 50%
 }
 
-.work-sample3 a img {
-    margin: 25px;
-    width: 450px;
-    height: 340px;
+.work-sample a img {
+    margin: 0 20px;
+    width: 400px;
+    height: 315px;
     opacity: 80%;
-    border: 2px solid var(--dark-color);
+    border: 5px solid var(--dark-color);
+    border-radius: 1%;
 }
 
-.work-sample4 a img {
-    margin: 25px;
-    width: 450px;
-    height: 340px;
-    opacity: 80%;
-    border: 2px solid var(--dark-color);
-}
-
-.work-sample5 a img {
-    margin: 25px;
-    width: 450px;
-    height: 340px;
-    opacity: 80%;
-    border: 2px solid var(--dark-color);
+.work-sample:hover a img {
+    opacity: 50%;
 }
 
 .sample-tag {
@@ -153,6 +141,12 @@ h3 {
     position: relative;
     bottom: 125px;
     left: 10px;
+    border: 2px solid var(--med-color);
+    border-radius: 1px;
+}
+
+.work h4 {
+    padding-top: 12px;
 }
 
 /* CONTACT STARTS HERE */
@@ -168,19 +162,36 @@ h3 {
     list-style: none;
     padding: 12px 0;
     color: var(--secondary-dark-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .contact ul li {
     padding: 12px 55px;
 }
 
+.contact ul li a {
+    border-bottom: 1px solid var(--secondary-dark-color);
+}
+
+.contact ul li a:hover {
+    color: var(--med-color);
+    border-bottom: 1px solid var(--med-color);
+}
+
 /* RESUME STARTS HERE */
 .resume {
     padding: 20px 70px;
+    padding-bottom: 80px;
 }
 
 .resume p {
     padding: 12px 0;
+}
+
+.resume p a:hover {
+    color: var(--med-color);
 }
 
 /* FOOTER STARTS HERE */
