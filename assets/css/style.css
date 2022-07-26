@@ -104,15 +104,55 @@ h3 {
     padding-top: 12px;
 }
 
-/*was trying to put image 1 in as background here, didn't work, deleted. send halpz*/
+.work-sample1 a img {
+    margin: 25px;
+    width: 850px;
+    height: 640px;
+    opacity: 80%;
+    border: 2px solid var(--dark-color);
+}
+
+.work-sample2 a img {
+    margin: 25px;
+    width: 450px;
+    height: 340px;
+    opacity: 80%;
+    border: 2px solid var(--dark-color);
+}
+
+.work-sample3 a img {
+    margin: 25px;
+    width: 450px;
+    height: 340px;
+    opacity: 80%;
+    border: 2px solid var(--dark-color);
+}
+
+.work-sample4 a img {
+    margin: 25px;
+    width: 450px;
+    height: 340px;
+    opacity: 80%;
+    border: 2px solid var(--dark-color);
+}
+
+.work-sample5 a img {
+    margin: 25px;
+    width: 450px;
+    height: 340px;
+    opacity: 80%;
+    border: 2px solid var(--dark-color);
+}
 
 .sample-tag {
     color: #263940;
     background-color: var(--med-color);
-    width: 450px;
+    width: 125px;
     height: 80px;
     padding: 10px;
-    position: absolute;
+    position: relative;
+    bottom: 125px;
+    left: 10px;
 }
 
 /* CONTACT STARTS HERE */
