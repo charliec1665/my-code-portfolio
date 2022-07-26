@@ -18,6 +18,12 @@ body {
     color: var(--dark-color);
 }
 
+body a {
+    text-decoration: none;
+    color: var(--secondary-dark-color);
+}
+
+/* HEADER STARTS HERE */
 header {
     padding: 5px 35px;
     background-color: #ff794d;
@@ -51,6 +57,7 @@ header nav ul li a {
     font-size: 18px;
 }
 
+/* HERO STARTS HERE */
 .hero {
     height: 245px;
     width: 100%;
@@ -70,9 +77,9 @@ header nav ul li a {
     background-color: var(--secondary-med-color);
     color: var(--light-color);
     text-shadow: 0 0 10px #cc3300;
-    justify-content: right;
 }
 
+/* ABOUT STARTS HERE */
 h3 {
     font-size: 25px;
     border-bottom: 2px solid var(--secondary-dark-color);
@@ -88,6 +95,7 @@ h3 {
     padding: 12px 0;
 }
 
+/* WORK SAMPLES START HERE */
 .work {
     padding: 20px 70px;
 }
@@ -96,6 +104,18 @@ h3 {
     padding-top: 12px;
 }
 
+/*was trying to put image 1 in as background here, didn't work, deleted. send halpz*/
+
+.sample-tag {
+    color: #263940;
+    background-color: var(--med-color);
+    width: 450px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+}
+
+/* CONTACT STARTS HERE */
 .contact {
     padding: 20px 70px;
 }
@@ -114,11 +134,7 @@ h3 {
     padding: 12px 55px;
 }
 
-.contact ul li a {
-    text-decoration: none;
-    color: var(--secondary-dark-color);
-}
-
+/* RESUME STARTS HERE */
 .resume {
     padding: 20px 70px;
 }
@@ -127,6 +143,7 @@ h3 {
     padding: 12px 0;
 }
 
+/* FOOTER STARTS HERE */
 footer {
     background-color: var(--dark-color);
     color: var(--light-color);
