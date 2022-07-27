@@ -81,6 +81,7 @@ header nav ul li a {
 
 /* ABOUT STARTS HERE */
 h3 {
+    flex: 1 100%;
     font-size: 25px;
     border-bottom: 2px solid var(--secondary-dark-color);
     width: 300px;
@@ -143,8 +144,6 @@ h3 {
 
 .work-sample a img {
     margin: 0 20px;
-    width: 400px;
-    height: 315px;
     opacity: 90%;
     border: 5px solid var(--dark-color);
     border-radius: 1%;
@@ -197,6 +196,7 @@ h3 {
 }
 
 .contact ul li a {
+    flex: 1 100%;
     border-bottom: 1px solid var(--secondary-dark-color);
 }
 
@@ -226,3 +226,105 @@ footer {
     text-align: end;
     padding: 15px 70px;
 }
+
+/* MEDIA QUERIES BEGIN HERE */
+
+/* For Small Desktop Screens and smaller */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+    }
+
+    body h3 {
+        margin-left: 40px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .about img {
+        top: 535px;
+    }
+
+    .work-sample1 a img {
+        margin-left: 40px;
+        width: 90%;
+    }
+
+    .work-sample a img {
+        margin-left: 40px;
+        width: 90%;
+    }
+
+    .sample-tag {
+        width: 200px;
+        height: 90px;
+    }
+
+    .sample-tag h4 {
+        font-size: 23px;
+    }
+
+    .sample-tag p {
+        font-size: 18px;
+    }
+
+    .contact p {
+        text-align: center;
+    }
+
+    .resume p {
+        text-align: center;
+    }
+
+}
+
+/* For Tablets and Smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+    
+    body h3 {
+        flex: 1 100%;
+    }
+
+    body p {
+        flex: 2 100%;
+    }
+
+    .contact ul li a {
+        flex: 2 100%;
+    }
+
+}
+
+/* For Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-size-adjust: 200px;
+    }
+}
+
