@@ -88,11 +88,28 @@ h3 {
 }
 
 .about {
-    padding: 20px 70px;
+    padding: 20px 70px 235px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 200px;
+    position: absolute;
+    top: 440px;
+}
+
+.about h3 {
+    position: relative;
+    left: 0px;
 }
 
 .about p {
     padding: 12px 0;
+    width: 75%;
+    position: relative;
+    left: 225px;
+    top: 70px;
 }
 
 /* WORK SAMPLES START HERE */
