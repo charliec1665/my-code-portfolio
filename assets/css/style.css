@@ -98,7 +98,7 @@ h3 {
 .about img {
     width: 200px;
     position: absolute;
-    top: 440px;
+    top: 450px;
     border: 2px solid var(--dark-color);
     border-radius: 2px;
     box-shadow: 5px 5px 10px var(--dark-color);
