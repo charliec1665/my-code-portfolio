@@ -171,8 +171,9 @@ h3 {
 }
 
 #sample-tag2 {
+    padding: 7px;
     width: 250px;
-    height: 160px;
+    height: 100px;
 }
 
 .work h4 {
